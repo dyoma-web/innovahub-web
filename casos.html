@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casos de éxito · Innovahub</title>
+<meta name="description" content="Proyectos con organismos de cooperación, entidades públicas, fundaciones y ONG en 13 países de América y África.">
+<meta property="og:title" content="Casos de éxito · Innovahub">
+<meta property="og:description" content="Proyectos con organismos de cooperación, entidades públicas, fundaciones y ONG en 13 países de América y África.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#334D5C">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#contenido">Ir al contenido</a>
+<header class="header">
+  <div class="container header__inner">
+    <a class="header__logo" href="index.html" aria-label="Innovahub, inicio">
+      <img src="assets/img/logo-horizontal-color.png" alt="Innovahub" width="521" height="141">
+    </a>
+    <nav class="nav" aria-label="Navegación principal">
+      <div class="nav__item nav__item--menu" data-nav="servicios">
+        <button class="nav__link" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="menu-servicios">Servicios <span class="caret" aria-hidden="true">▾</span></button>
+        <ul class="nav__menu" id="menu-servicios">
+          <li><a href="servicio-formacion-virtual.html"><span class="dot" style="background:#DD7A3E"></span>Formación virtual</a></li>
+          <li><a href="index.html#servicios"><span class="dot" style="background:#DA5A49"></span>Diagnóstico de capacidades y asesoría</a></li>
+          <li><a href="index.html#servicios"><span class="dot" style="background:#45AD98"></span>Sistematización de experiencias</a></li>
+          <li><a href="index.html#servicios"><span class="dot" style="background:#EAC44C"></span>Producción gráfica y audiovisual</a></li>
+          <li><a href="index.html#servicios"><span class="dot" style="background:#334D5C"></span>Plataformas de gestión del conocimiento</a></li>
+        </ul>
+      </div>
+      <a class="nav__link" href="casos.html" data-nav="casos" aria-current="page">Casos de éxito</a>
+      <a class="nav__link" href="como-trabajamos.html" data-nav="metodologia">Cómo trabajamos</a>
+      <a class="nav__link" href="nosotros.html" data-nav="nosotros">Nosotros</a>
+      <a class="nav__link" href="index.html#recursos" data-nav="recursos">Recursos</a>
+    </nav>
+    <div class="header__acciones">
+      <span class="lang"><strong>ES</strong> | <a href="#" aria-disabled="true" title="Versión en inglés en preparación">EN</a></span>
+      <a class="btn btn--primario btn--cta" href="contacto.html">Conversemos</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="nav-movil" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav-movil" id="nav-movil">
+    <div class="container">
+      <ul class="nav-movil__lista">
+        <li>
+          <span>Servicios</span>
+          <ul class="nav-movil__sub">
+            <li><a href="servicio-formacion-virtual.html"><span class="dot" style="background:#DD7A3E"></span>Formación virtual</a></li>
+            <li><a href="index.html#servicios"><span class="dot" style="background:#DA5A49"></span>Diagnóstico y asesoría</a></li>
+            <li><a href="index.html#servicios"><span class="dot" style="background:#45AD98"></span>Sistematización</a></li>
+            <li><a href="index.html#servicios"><span class="dot" style="background:#EAC44C"></span>Producción gráfica y audiovisual</a></li>
+            <li><a href="index.html#servicios"><span class="dot" style="background:#334D5C"></span>Plataformas web</a></li>
+          </ul>
+        </li>
+        <li><a href="casos.html">Casos de éxito</a></li>
+        <li><a href="como-trabajamos.html">Cómo trabajamos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="index.html#recursos">Recursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <p class="nav-movil__lang"><strong>ES</strong> | EN <span class="mono">(en preparación)</span></p>
+    </div>
+  </div>
+</header>
+<main id="contenido">
+<div data-portafolio>
+<section class="portafolio-head section--gris">
+  <div class="container portafolio-head__inner">
+    <div class="section-head">
+      <h1>Casos de <span class="acento-coral">éxito</span></h1>
+      <p>Proyectos con organismos de cooperación, entidades públicas, fundaciones y ONG en 13 países de América y África.</p>
+    </div>
+
+    <label class="buscador">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <span class="visually-hidden">Buscar por cliente o proyecto</span>
+      <input type="search" placeholder="Buscar por cliente o proyecto" data-buscador autocomplete="off">
+    </label>
+
+    <div class="filtros-movil">
+      <button class="btn btn--sm btn--secundario" type="button" data-abrir-filtros style="background:#334D5C;color:#fff">Filtrar</button>
+      <strong data-contador-movil>12 proyectos</strong>
+    </div>
+    <div class="chips-activos" aria-label="Filtros activos"></div>
+
+    <div class="filtros" id="filtros">
+      <div class="filtro" data-filtro="linea">
+        <span class="filtro__label" id="lbl-linea">Línea de servicio</span>
+        <div class="filtro__chips" role="group" aria-labelledby="lbl-linea">
+          <button class="chip chip--filtro" type="button" data-valor="todas" aria-pressed="true">Todas</button>
+          <button class="chip chip--filtro" type="button" data-valor="formacion" aria-pressed="false">Formación virtual</button>
+          <button class="chip chip--filtro" type="button" data-valor="diagnostico" aria-pressed="false">Diagnóstico y asesoría</button>
+          <button class="chip chip--filtro" type="button" data-valor="sistematizacion" aria-pressed="false">Sistematización</button>
+          <button class="chip chip--filtro" type="button" data-valor="produccion" aria-pressed="false">Producción audiovisual</button>
+          <button class="chip chip--filtro" type="button" data-valor="plataformas" aria-pressed="false">Plataformas</button>
+        </div>
+      </div>
+      <div class="filtro" data-filtro="sector">
+        <span class="filtro__label" id="lbl-sector">Sector</span>
+        <div class="filtro__chips" role="group" aria-labelledby="lbl-sector">
+          <button class="chip chip--filtro" type="button" data-valor="todos" aria-pressed="true">Todos</button>
+          <button class="chip chip--filtro" type="button" data-valor="cooperacion" aria-pressed="false">Cooperación internacional</button>
+          <button class="chip chip--filtro" type="button" data-valor="gobierno" aria-pressed="false">Gobierno y justicia</button>
+          <button class="chip chip--filtro" type="button" data-valor="fundaciones" aria-pressed="false">Fundaciones y ONG</button>
+          <button class="chip chip--filtro" type="button" data-valor="ambiente" aria-pressed="false">Medio ambiente</button>
+        </div>
+      </div>
+      <div class="filtro">
+        <label class="filtro__label" for="pais">País</label>
+        <div class="filtro__controles">
+          <div class="select-pill">
+            <select id="pais" data-filtro="pais">
+              <option value="todos">Todos los países</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Costa Rica">Costa Rica</option>
+              <option value="El Salvador">El Salvador</option>
+              <option value="Estados Unidos">Estados Unidos</option>
+              <option value="México">México</option>
+              <option value="Venezuela">Venezuela</option>
+              <option value="Regional">Regional / varios países</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--portafolio">
+  <div class="container stack">
+    <div class="resultados-bar">
+      <strong data-contador aria-live="polite">12 proyectos</strong>
+      <div class="select-pill orden"><select aria-label="Ordenar"><option>Más recientes</option><option>Alfabético</option></select></div>
+    </div>
+
+    <div class="casos-grid">
+      <a class="caso-card" href="caso-ciclo-genero.html" data-lineas="formacion plataformas" data-sector="gobierno" data-pais="Colombia">
+        <div class="caso-card__media"><img src="assets/img/casos/ciclo-genero.jpg" alt="Pantalla de un curso del Ciclo de Formación en Género e Interseccionalidad" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--formacion">Formación virtual</span><span class="chip chip--plataformas">Plataformas</span></div>
+          <span class="caso-card__cliente">Rama Judicial de Colombia · EJRLB</span>
+          <h3>Ciclo de Formación en Género e Interseccionalidad</h3>
+          <p>14 cursos, 400 horas y 3 niveles con plugin Moodle de rutas y autodiagnóstico.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="plataformas produccion" data-sector="ambiente" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/wwf-lfa.jpg" alt="Portada del sitio Sustainable Finance for Conservation de WWF" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--plataformas">Plataformas</span><span class="chip chip--produccion">Producción</span></div>
+          <span class="caso-card__cliente">WWF</span>
+          <h3>Sustainable Finance for Conservation</h3>
+          <p>Sitio trilingüe con navegador de financiamiento y mapa de casos.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="sistematizacion plataformas" data-sector="cooperacion" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/atlas-undp.jpg" alt="Repositorio Atlas of Innovation in Public Communication" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--sistematizacion">Sistematización</span><span class="chip chip--plataformas">Plataformas</span></div>
+          <span class="caso-card__cliente">UNDP global</span>
+          <h3>Atlas of Innovation in Public Communication</h3>
+          <p>112 casos de 30 países, bilingüe, con mapa y filtros embebibles en Drupal.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="sistematizacion plataformas" data-sector="cooperacion" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/banco-experiencias.jpg" alt="Dashboard del banco de experiencias de gobernanza pública con mapa de la región" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--sistematizacion">Sistematización</span><span class="chip chip--plataformas">Plataformas</span></div>
+          <span class="caso-card__cliente">PNUD América Latina y el Caribe</span>
+          <h3>Banco de experiencias de gobernanza pública</h3>
+          <p>Dashboard de 149 experiencias por dimensión y país, con informe imprimible.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="plataformas" data-sector="cooperacion" data-pais="El Salvador" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/infosegura.jpg" alt="Portada del campus virtual del proyecto Infosegura" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--plataformas">Plataformas</span></div>
+          <span class="caso-card__cliente">PNUD / USAID El Salvador</span>
+          <h3>Campus virtual Infosegura</h3>
+          <p>Campus para la gestión del conocimiento en seguridad ciudadana.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="diagnostico" data-sector="cooperacion" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/hoja-ruta-juventud.jpg" alt="Portada del documento Hoja de ruta para la creación del Instituto Nacional de Juventud" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--diagnostico">Diagnóstico y asesoría</span></div>
+          <span class="caso-card__cliente">PNUD</span>
+          <h3>Hoja de ruta del Instituto Nacional de Juventud</h3>
+          <p>Ruta de creación institucional con inteligencia colectiva.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="diagnostico" data-sector="gobierno" data-pais="Colombia" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/mapeo-pgn.jpg" alt="Portada del documento de mapeo y hoja de ruta de la Procuraduría General de la Nación" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--diagnostico">Diagnóstico y asesoría</span></div>
+          <span class="caso-card__cliente">Procuraduría General de la Nación · IEMP</span>
+          <h3>Mapeo de procesos y hoja de ruta en gestión del conocimiento</h3>
+          <p>Procedimientos, actividades y tecnologías de la PGN para la gestión del conocimiento y la innovación.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="formacion produccion" data-sector="cooperacion" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/discapacidad.jpg" alt="Fotograma del video sobre toma de decisiones con apoyo para personas con discapacidad" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--formacion">Formación virtual</span><span class="chip chip--produccion">Producción</span></div>
+          <span class="caso-card__cliente">Innovahub · aliados</span>
+          <h3>Toma de decisiones con apoyo para personas con discapacidad</h3>
+          <p>OVA en Storyline acompañada de video documental y podcast.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="produccion formacion" data-sector="gobierno" data-pais="México" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/inegi-genero.jpg" alt="Portada del curso Perspectiva de género en las estadísticas de delincuencia y justicia penal" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--produccion">Producción</span><span class="chip chip--formacion">Formación virtual</span></div>
+          <span class="caso-card__cliente">INEGI · UNODC</span>
+          <h3>Perspectiva de género en las estadísticas de delincuencia y justicia penal</h3>
+          <p>Línea gráfica y objeto virtual de aprendizaje en Storyline.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="produccion" data-sector="ambiente" data-pais="Costa Rica" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/conversaciones-climaticas.jpg" alt="Línea gráfica de Conversaciones Climáticas con MINAE y PNUD" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--produccion">Producción</span></div>
+          <span class="caso-card__cliente">MINAE · PNUD Costa Rica</span>
+          <h3>Conversaciones Climáticas</h3>
+          <p>Línea gráfica e infografías interactivas para el diálogo sobre cambio climático.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="plataformas formacion" data-sector="cooperacion" data-pais="Venezuela" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/bolsa-agricola.jpg" alt="Línea gráfica del campus de la Bolsa Agrícola de Venezuela" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--plataformas">Plataformas</span><span class="chip chip--formacion">Formación virtual</span></div>
+          <span class="caso-card__cliente">Bolpriaven · PNUD</span>
+          <h3>Campus virtual Bolsa Agrícola de Venezuela</h3>
+          <p>Campus y oferta formativa para el sector agrícola.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="sistematizacion" data-sector="fundaciones" data-pais="Estados Unidos" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/ideas-en-accion.jpg" alt="Relatoría gráfica de IDEAs en Acción para La Clínica del Pueblo" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--sistematizacion">Sistematización</span></div>
+          <span class="caso-card__cliente">La Clínica del Pueblo</span>
+          <h3>IDEAs en Acción</h3>
+          <p>Relatorías gráficas y videos de sistematización de paneles sobre transformación del cuidado.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="estado-vacio" hidden>
+      <span class="mono">SIN RESULTADOS</span>
+      <h3>No encontramos proyectos con esos filtros</h3>
+      <p>Prueba con otra línea de servicio o escríbenos: seguro tenemos una experiencia cercana a lo que buscas.</p>
+      <div class="estado-vacio__acciones">
+        <button class="btn btn--secundario btn--sm" type="button" data-limpiar>Limpiar filtros</button>
+        <a class="btn btn--primario btn--sm" href="contacto.html">Conversemos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hoja inferior de filtros (móvil) -->
+<div class="hoja" role="dialog" aria-modal="true" aria-labelledby="hoja-titulo">
+  <div class="hoja__fondo" data-cerrar-hoja></div>
+  <div class="hoja__panel">
+    <div class="hoja__head">
+      <h2 id="hoja-titulo">Filtrar</h2>
+      <button class="hoja__cerrar" type="button" data-cerrar-hoja aria-label="Cerrar">×</button>
+    </div>
+    <div class="filtros is-open">
+      <div class="filtro" data-filtro="linea">
+        <span class="filtro__label">Línea de servicio</span>
+        <div class="filtro__chips">
+          <button class="chip chip--filtro" type="button" data-valor="todas" aria-pressed="true">Todas</button>
+          <button class="chip chip--filtro" type="button" data-valor="formacion" aria-pressed="false">Formación virtual</button>
+          <button class="chip chip--filtro" type="button" data-valor="diagnostico" aria-pressed="false">Diagnóstico y asesoría</button>
+          <button class="chip chip--filtro" type="button" data-valor="sistematizacion" aria-pressed="false">Sistematización</button>
+          <button class="chip chip--filtro" type="button" data-valor="produccion" aria-pressed="false">Producción audiovisual</button>
+          <button class="chip chip--filtro" type="button" data-valor="plataformas" aria-pressed="false">Plataformas</button>
+        </div>
+      </div>
+      <div class="filtro" data-filtro="sector">
+        <span class="filtro__label">Sector</span>
+        <div class="filtro__chips">
+          <button class="chip chip--filtro" type="button" data-valor="todos" aria-pressed="true">Todos</button>
+          <button class="chip chip--filtro" type="button" data-valor="cooperacion" aria-pressed="false">Cooperación internacional</button>
+          <button class="chip chip--filtro" type="button" data-valor="gobierno" aria-pressed="false">Gobierno y justicia</button>
+          <button class="chip chip--filtro" type="button" data-valor="fundaciones" aria-pressed="false">Fundaciones y ONG</button>
+          <button class="chip chip--filtro" type="button" data-valor="ambiente" aria-pressed="false">Medio ambiente</button>
+        </div>
+      </div>
+      <div class="filtro">
+        <label class="filtro__label" for="pais-movil">País</label>
+        <div class="select-pill">
+          <select id="pais-movil" data-filtro="pais">
+            <option value="todos">Todos los países</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="El Salvador">El Salvador</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="México">México</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Regional">Regional / varios países</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="hoja__acciones">
+      <button class="btn btn--secundario" type="button" data-limpiar>Limpiar</button>
+      <button class="btn btn--primario" type="button" data-cerrar-hoja>Ver resultados</button>
+    </div>
+  </div>
+</div>
+</div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__marca">
+        <img src="assets/img/logo-horizontal-blanco.png" alt="Innovahub" width="521" height="141">
+        <div class="sig" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <p>El hub en gestión del conocimiento que inspira a tu equipo a desarrollar su potencial.</p>
+      </div>
+      <div class="footer__col">
+        <strong>Servicios</strong>
+        <a href="servicio-formacion-virtual.html">Formación virtual</a>
+        <a href="index.html#servicios">Diagnóstico y asesoría</a>
+        <a href="index.html#servicios">Sistematización</a>
+        <a href="index.html#servicios">Producción audiovisual</a>
+        <a href="index.html#servicios">Plataformas web</a>
+      </div>
+      <div class="footer__col footer__col--empresa">
+        <strong>Empresa</strong>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="como-trabajamos.html">Cómo trabajamos</a>
+        <a href="casos.html">Casos de éxito</a>
+        <a href="nosotros.html#aliados">Aliados</a>
+      </div>
+      <div class="footer__col footer__col--recursos">
+        <strong>Recursos</strong>
+        <a href="https://campus.innovahub.org" target="_blank" rel="noopener">Campus virtual</a>
+        <a href="https://iniciativas.innovahub.org" target="_blank" rel="noopener">Repositorio de iniciativas</a>
+        <a href="assets/docs/brochure-innovahub.pdf" target="_blank" rel="noopener">Brochure (PDF)</a>
+        <a href="index.html#recursos">Novedades</a>
+      </div>
+      <div class="footer__col">
+        <strong>Contacto</strong>
+        <span>Bogotá, Colombia</span>
+        <a href="mailto:contacto@innovahub.org">contacto@innovahub.org</a>
+        <a href="contacto.html">WhatsApp</a>
+        <div class="social">
+          <a href="#" title="LinkedIn (enlace por definir)" aria-label="LinkedIn"><span data-icon="linkedin"></span></a>
+          <a href="#" title="YouTube (enlace por definir)" aria-label="YouTube"><span data-icon="youtube"></span></a>
+          <a href="#" title="Instagram (enlace por definir)" aria-label="Instagram"><span data-icon="instagram"></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <span>© Innovahub Colombia S.A.S. <span data-anio>2026</span></span>
+      <div><a href="#" title="Documento por publicar">Política de tratamiento de datos</a><span>ES | EN</span></div>
+    </div>
+  </div>
+</footer>
+<div class="beta-nota" aria-hidden="true">BETA · contenido e imágenes en revisión</div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

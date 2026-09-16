@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conversemos · Innovahub</title>
+<meta name="description" content="Cuéntanos qué necesita tu organización. Respondemos en menos de 24 horas.">
+<meta property="og:title" content="Conversemos · Innovahub">
+<meta property="og:description" content="Cuéntanos qué necesita tu organización. Respondemos en menos de 24 horas.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#334D5C">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#contenido">Ir al contenido</a>
+<header class="header">
+  <div class="container header__inner">
+    <a class="header__logo" href="index.html" aria-label="Innovahub, inicio">
+      <img src="assets/img/logo-horizontal-color.png" alt="Innovahub" width="521" height="141">
+    </a>
+    <nav class="nav" aria-label="Navegación principal">
+      <div class="nav__item nav__item--menu" data-nav="servicios">
+        <button class="nav__link" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="menu-servicios">Servicios <span class="caret" aria-hidden="true">▾</span></button>
+        <ul class="nav__menu" id="menu-servicios">
+          <li><a href="servicio-formacion-virtual.html"><span class="dot" style="background:#DD7A3E"></span>Formación virtual</a></li>
+          <li><a href="index.html#servicios"><span class="dot" style="background:#DA5A49"></span>Diagnóstico de capacidades y asesoría</a></li>
+          <li><a href="index.html#servicios"><span class="dot" style="background:#45AD98"></span>Sistematización de experiencias</a></li>
+          <li><a href="index.html#servicios"><span class="dot" style="background:#EAC44C"></span>Producción gráfica y audiovisual</a></li>
+          <li><a href="index.html#servicios"><span class="dot" style="background:#334D5C"></span>Plataformas de gestión del conocimiento</a></li>
+        </ul>
+      </div>
+      <a class="nav__link" href="casos.html" data-nav="casos">Casos de éxito</a>
+      <a class="nav__link" href="como-trabajamos.html" data-nav="metodologia">Cómo trabajamos</a>
+      <a class="nav__link" href="nosotros.html" data-nav="nosotros">Nosotros</a>
+      <a class="nav__link" href="index.html#recursos" data-nav="recursos">Recursos</a>
+    </nav>
+    <div class="header__acciones">
+      <span class="lang"><strong>ES</strong> | <a href="#" aria-disabled="true" title="Versión en inglés en preparación">EN</a></span>
+      <a class="btn btn--primario btn--cta" href="contacto.html">Conversemos</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="nav-movil" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav-movil" id="nav-movil">
+    <div class="container">
+      <ul class="nav-movil__lista">
+        <li>
+          <span>Servicios</span>
+          <ul class="nav-movil__sub">
+            <li><a href="servicio-formacion-virtual.html"><span class="dot" style="background:#DD7A3E"></span>Formación virtual</a></li>
+            <li><a href="index.html#servicios"><span class="dot" style="background:#DA5A49"></span>Diagnóstico y asesoría</a></li>
+            <li><a href="index.html#servicios"><span class="dot" style="background:#45AD98"></span>Sistematización</a></li>
+            <li><a href="index.html#servicios"><span class="dot" style="background:#EAC44C"></span>Producción gráfica y audiovisual</a></li>
+            <li><a href="index.html#servicios"><span class="dot" style="background:#334D5C"></span>Plataformas web</a></li>
+          </ul>
+        </li>
+        <li><a href="casos.html">Casos de éxito</a></li>
+        <li><a href="como-trabajamos.html">Cómo trabajamos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="index.html#recursos">Recursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <p class="nav-movil__lang"><strong>ES</strong> | EN <span class="mono">(en preparación)</span></p>
+    </div>
+  </div>
+</header>
+<main id="contenido">
+<div class="container contacto-layout">
+  <div class="contacto-form">
+    <div class="contacto-form__head">
+      <h1>Conversemos</h1>
+      <p>Cuéntanos qué necesita tu organización. Respondemos en menos de 24 horas.</p>
+    </div>
+
+    <form class="form" data-form-contacto novalidate action="#" method="post">
+      <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Ana María Torres" required autocomplete="name">
+        <span class="campo__error">Escribe tu nombre</span>
+      </div>
+      <div class="campo">
+        <label for="organizacion">Organización</label>
+        <input id="organizacion" name="organizacion" type="text" placeholder="Fundación [Nombre]" required autocomplete="organization">
+        <span class="campo__error">Indica tu organización</span>
+      </div>
+      <div class="campo">
+        <label for="correo">Correo</label>
+        <input id="correo" name="correo" type="email" placeholder="ana.torres@organizacion.org" required autocomplete="email">
+        <span class="campo__error">Ingresa un correo válido</span>
+      </div>
+      <div class="campo">
+        <label for="pais">País</label>
+        <select id="pais" name="pais" required>
+          <option value="">Selecciona un país</option>
+          <option>Colombia</option><option>México</option><option>Guatemala</option><option>Honduras</option><option>El Salvador</option>
+          <option>Costa Rica</option><option>Panamá</option><option>Ecuador</option><option>Venezuela</option><option>Chile</option>
+          <option>Brasil</option><option>Estados Unidos</option><option>Guinea Ecuatorial</option><option>Otro</option>
+        </select>
+        <span class="campo__error">Selecciona tu país</span>
+      </div>
+      <div class="campo campo--ancho">
+        <label for="linea">Línea de servicio de interés</label>
+        <select id="linea" name="linea" required>
+          <option value="">Selecciona una opción</option>
+          <option>Formación virtual</option>
+          <option>Diagnóstico de capacidades y asesoría</option>
+          <option>Sistematización de experiencias y proyectos</option>
+          <option>Producción gráfica y audiovisual</option>
+          <option>Plataformas web con enfoque en gestión del conocimiento</option>
+          <option>Aún no lo sé, quiero conversar</option>
+        </select>
+        <span class="campo__error">Selecciona la línea que más se acerca a tu necesidad</span>
+      </div>
+      <div class="campo campo--ancho">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Queremos formar a 300 personas de nuestra red en tres países…" required></textarea>
+        <span class="campo__error">Cuéntanos brevemente qué necesitas</span>
+      </div>
+      <div class="campo campo--ancho campo--check">
+        <input id="datos" name="datos" type="checkbox" required>
+        <label for="datos">Autorizo el tratamiento de mis datos personales según la política de privacidad de Innovahub.</label>
+      </div>
+      <button class="btn btn--primario btn--lg" type="submit">Enviar</button>
+    </form>
+
+    <div class="aviso aviso--ok" role="status" hidden><strong>Mensaje enviado</strong><span>Te escribimos en menos de 24 horas al correo registrado.</span></div>
+    <div class="aviso aviso--error" role="alert" hidden><strong>Revisa los campos marcados</strong><span>Faltan el correo y la línea de servicio.</span></div>
+  </div>
+
+  <aside class="contacto-aside">
+    <div class="sig" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <div class="contacto-aside__datos">
+      <h2>Escríbenos directo</h2>
+      <span>Bogotá, Colombia</span>
+      <a href="mailto:contacto@innovahub.org">contacto@innovahub.org</a>
+    </div>
+    <div class="contacto-aside__botones">
+      <a class="btn btn--keppel" href="#" title="Número de WhatsApp por definir"><span data-icon="whatsapp" style="width:18px;height:18px;display:inline-flex"></span> Escribir por WhatsApp</a>
+      <a class="btn btn--secundario" href="#" title="Enlace de agenda por definir">Agendar una reunión</a>
+    </div>
+    <div class="despues">
+      <h3>¿Qué pasa después de escribirnos?</h3>
+      <ol>
+        <li>Te respondemos en menos de 24 horas para entender el alcance.</li>
+        <li>Agendamos una conversación de 30 minutos con el equipo técnico.</li>
+        <li>Recibes una propuesta con alcance, tiempos y presupuesto.</li>
+      </ol>
+    </div>
+  </aside>
+</div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__marca">
+        <img src="assets/img/logo-horizontal-blanco.png" alt="Innovahub" width="521" height="141">
+        <div class="sig" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <p>El hub en gestión del conocimiento que inspira a tu equipo a desarrollar su potencial.</p>
+      </div>
+      <div class="footer__col">
+        <strong>Servicios</strong>
+        <a href="servicio-formacion-virtual.html">Formación virtual</a>
+        <a href="index.html#servicios">Diagnóstico y asesoría</a>
+        <a href="index.html#servicios">Sistematización</a>
+        <a href="index.html#servicios">Producción audiovisual</a>
+        <a href="index.html#servicios">Plataformas web</a>
+      </div>
+      <div class="footer__col footer__col--empresa">
+        <strong>Empresa</strong>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="como-trabajamos.html">Cómo trabajamos</a>
+        <a href="casos.html">Casos de éxito</a>
+        <a href="nosotros.html#aliados">Aliados</a>
+      </div>
+      <div class="footer__col footer__col--recursos">
+        <strong>Recursos</strong>
+        <a href="https://campus.innovahub.org" target="_blank" rel="noopener">Campus virtual</a>
+        <a href="https://iniciativas.innovahub.org" target="_blank" rel="noopener">Repositorio de iniciativas</a>
+        <a href="assets/docs/brochure-innovahub.pdf" target="_blank" rel="noopener">Brochure (PDF)</a>
+        <a href="index.html#recursos">Novedades</a>
+      </div>
+      <div class="footer__col">
+        <strong>Contacto</strong>
+        <span>Bogotá, Colombia</span>
+        <a href="mailto:contacto@innovahub.org">contacto@innovahub.org</a>
+        <a href="contacto.html">WhatsApp</a>
+        <div class="social">
+          <a href="#" title="LinkedIn (enlace por definir)" aria-label="LinkedIn"><span data-icon="linkedin"></span></a>
+          <a href="#" title="YouTube (enlace por definir)" aria-label="YouTube"><span data-icon="youtube"></span></a>
+          <a href="#" title="Instagram (enlace por definir)" aria-label="Instagram"><span data-icon="instagram"></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <span>© Innovahub Colombia S.A.S. <span data-anio>2026</span></span>
+      <div><a href="#" title="Documento por publicar">Política de tratamiento de datos</a><span>ES | EN</span></div>
+    </div>
+  </div>
+</footer>
+<div class="beta-nota" aria-hidden="true">BETA · contenido e imágenes en revisión</div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

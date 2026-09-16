@@ -1,0 +1,260 @@
+<!-- title: Casos de éxito · Innovahub | desc: Proyectos con organismos de cooperación, entidades públicas, fundaciones y ONG en 13 países de América y África. | nav: casos -->
+
+<div data-portafolio>
+<section class="portafolio-head section--gris">
+  <div class="container portafolio-head__inner">
+    <div class="section-head">
+      <h1>Casos de <span class="acento-coral">éxito</span></h1>
+      <p>Proyectos con organismos de cooperación, entidades públicas, fundaciones y ONG en 13 países de América y África.</p>
+    </div>
+
+    <label class="buscador">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <span class="visually-hidden">Buscar por cliente o proyecto</span>
+      <input type="search" placeholder="Buscar por cliente o proyecto" data-buscador autocomplete="off">
+    </label>
+
+    <div class="filtros-movil">
+      <button class="btn btn--sm btn--secundario" type="button" data-abrir-filtros style="background:#334D5C;color:#fff">Filtrar</button>
+      <strong data-contador-movil>12 proyectos</strong>
+    </div>
+    <div class="chips-activos" aria-label="Filtros activos"></div>
+
+    <div class="filtros" id="filtros">
+      <div class="filtro" data-filtro="linea">
+        <span class="filtro__label" id="lbl-linea">Línea de servicio</span>
+        <div class="filtro__chips" role="group" aria-labelledby="lbl-linea">
+          <button class="chip chip--filtro" type="button" data-valor="todas" aria-pressed="true">Todas</button>
+          <button class="chip chip--filtro" type="button" data-valor="formacion" aria-pressed="false">Formación virtual</button>
+          <button class="chip chip--filtro" type="button" data-valor="diagnostico" aria-pressed="false">Diagnóstico y asesoría</button>
+          <button class="chip chip--filtro" type="button" data-valor="sistematizacion" aria-pressed="false">Sistematización</button>
+          <button class="chip chip--filtro" type="button" data-valor="produccion" aria-pressed="false">Producción audiovisual</button>
+          <button class="chip chip--filtro" type="button" data-valor="plataformas" aria-pressed="false">Plataformas</button>
+        </div>
+      </div>
+      <div class="filtro" data-filtro="sector">
+        <span class="filtro__label" id="lbl-sector">Sector</span>
+        <div class="filtro__chips" role="group" aria-labelledby="lbl-sector">
+          <button class="chip chip--filtro" type="button" data-valor="todos" aria-pressed="true">Todos</button>
+          <button class="chip chip--filtro" type="button" data-valor="cooperacion" aria-pressed="false">Cooperación internacional</button>
+          <button class="chip chip--filtro" type="button" data-valor="gobierno" aria-pressed="false">Gobierno y justicia</button>
+          <button class="chip chip--filtro" type="button" data-valor="fundaciones" aria-pressed="false">Fundaciones y ONG</button>
+          <button class="chip chip--filtro" type="button" data-valor="ambiente" aria-pressed="false">Medio ambiente</button>
+        </div>
+      </div>
+      <div class="filtro">
+        <label class="filtro__label" for="pais">País</label>
+        <div class="filtro__controles">
+          <div class="select-pill">
+            <select id="pais" data-filtro="pais">
+              <option value="todos">Todos los países</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Costa Rica">Costa Rica</option>
+              <option value="El Salvador">El Salvador</option>
+              <option value="Estados Unidos">Estados Unidos</option>
+              <option value="México">México</option>
+              <option value="Venezuela">Venezuela</option>
+              <option value="Regional">Regional / varios países</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--portafolio">
+  <div class="container stack">
+    <div class="resultados-bar">
+      <strong data-contador aria-live="polite">12 proyectos</strong>
+      <div class="select-pill orden"><select aria-label="Ordenar"><option>Más recientes</option><option>Alfabético</option></select></div>
+    </div>
+
+    <div class="casos-grid">
+      <a class="caso-card" href="caso-ciclo-genero.html" data-lineas="formacion plataformas" data-sector="gobierno" data-pais="Colombia">
+        <div class="caso-card__media"><img src="assets/img/casos/ciclo-genero.jpg" alt="Pantalla de un curso del Ciclo de Formación en Género e Interseccionalidad" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--formacion">Formación virtual</span><span class="chip chip--plataformas">Plataformas</span></div>
+          <span class="caso-card__cliente">Rama Judicial de Colombia · EJRLB</span>
+          <h3>Ciclo de Formación en Género e Interseccionalidad</h3>
+          <p>14 cursos, 400 horas y 3 niveles con plugin Moodle de rutas y autodiagnóstico.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="plataformas produccion" data-sector="ambiente" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/wwf-lfa.jpg" alt="Portada del sitio Sustainable Finance for Conservation de WWF" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--plataformas">Plataformas</span><span class="chip chip--produccion">Producción</span></div>
+          <span class="caso-card__cliente">WWF</span>
+          <h3>Sustainable Finance for Conservation</h3>
+          <p>Sitio trilingüe con navegador de financiamiento y mapa de casos.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="sistematizacion plataformas" data-sector="cooperacion" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/atlas-undp.jpg" alt="Repositorio Atlas of Innovation in Public Communication" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--sistematizacion">Sistematización</span><span class="chip chip--plataformas">Plataformas</span></div>
+          <span class="caso-card__cliente">UNDP global</span>
+          <h3>Atlas of Innovation in Public Communication</h3>
+          <p>112 casos de 30 países, bilingüe, con mapa y filtros embebibles en Drupal.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="sistematizacion plataformas" data-sector="cooperacion" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/banco-experiencias.jpg" alt="Dashboard del banco de experiencias de gobernanza pública con mapa de la región" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--sistematizacion">Sistematización</span><span class="chip chip--plataformas">Plataformas</span></div>
+          <span class="caso-card__cliente">PNUD América Latina y el Caribe</span>
+          <h3>Banco de experiencias de gobernanza pública</h3>
+          <p>Dashboard de 149 experiencias por dimensión y país, con informe imprimible.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="plataformas" data-sector="cooperacion" data-pais="El Salvador" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/infosegura.jpg" alt="Portada del campus virtual del proyecto Infosegura" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--plataformas">Plataformas</span></div>
+          <span class="caso-card__cliente">PNUD / USAID El Salvador</span>
+          <h3>Campus virtual Infosegura</h3>
+          <p>Campus para la gestión del conocimiento en seguridad ciudadana.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="diagnostico" data-sector="cooperacion" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/hoja-ruta-juventud.jpg" alt="Portada del documento Hoja de ruta para la creación del Instituto Nacional de Juventud" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--diagnostico">Diagnóstico y asesoría</span></div>
+          <span class="caso-card__cliente">PNUD</span>
+          <h3>Hoja de ruta del Instituto Nacional de Juventud</h3>
+          <p>Ruta de creación institucional con inteligencia colectiva.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="diagnostico" data-sector="gobierno" data-pais="Colombia" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/mapeo-pgn.jpg" alt="Portada del documento de mapeo y hoja de ruta de la Procuraduría General de la Nación" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--diagnostico">Diagnóstico y asesoría</span></div>
+          <span class="caso-card__cliente">Procuraduría General de la Nación · IEMP</span>
+          <h3>Mapeo de procesos y hoja de ruta en gestión del conocimiento</h3>
+          <p>Procedimientos, actividades y tecnologías de la PGN para la gestión del conocimiento y la innovación.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="formacion produccion" data-sector="cooperacion" data-pais="Regional" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/discapacidad.jpg" alt="Fotograma del video sobre toma de decisiones con apoyo para personas con discapacidad" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--formacion">Formación virtual</span><span class="chip chip--produccion">Producción</span></div>
+          <span class="caso-card__cliente">Innovahub · aliados</span>
+          <h3>Toma de decisiones con apoyo para personas con discapacidad</h3>
+          <p>OVA en Storyline acompañada de video documental y podcast.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="produccion formacion" data-sector="gobierno" data-pais="México" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/inegi-genero.jpg" alt="Portada del curso Perspectiva de género en las estadísticas de delincuencia y justicia penal" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--produccion">Producción</span><span class="chip chip--formacion">Formación virtual</span></div>
+          <span class="caso-card__cliente">INEGI · UNODC</span>
+          <h3>Perspectiva de género en las estadísticas de delincuencia y justicia penal</h3>
+          <p>Línea gráfica y objeto virtual de aprendizaje en Storyline.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="produccion" data-sector="ambiente" data-pais="Costa Rica" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/conversaciones-climaticas.jpg" alt="Línea gráfica de Conversaciones Climáticas con MINAE y PNUD" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--produccion">Producción</span></div>
+          <span class="caso-card__cliente">MINAE · PNUD Costa Rica</span>
+          <h3>Conversaciones Climáticas</h3>
+          <p>Línea gráfica e infografías interactivas para el diálogo sobre cambio climático.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="plataformas formacion" data-sector="cooperacion" data-pais="Venezuela" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/bolsa-agricola.jpg" alt="Línea gráfica del campus de la Bolsa Agrícola de Venezuela" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--plataformas">Plataformas</span><span class="chip chip--formacion">Formación virtual</span></div>
+          <span class="caso-card__cliente">Bolpriaven · PNUD</span>
+          <h3>Campus virtual Bolsa Agrícola de Venezuela</h3>
+          <p>Campus y oferta formativa para el sector agrícola.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+      <a class="caso-card" href="#" data-lineas="sistematizacion" data-sector="fundaciones" data-pais="Estados Unidos" title="Ficha en construcción">
+        <div class="caso-card__media"><img src="assets/img/casos/ideas-en-accion.jpg" alt="Relatoría gráfica de IDEAs en Acción para La Clínica del Pueblo" width="1200" height="750" loading="lazy"></div>
+        <div class="caso-card__cuerpo">
+          <div class="caso-card__chips"><span class="chip chip--sistematizacion">Sistematización</span></div>
+          <span class="caso-card__cliente">La Clínica del Pueblo</span>
+          <h3>IDEAs en Acción</h3>
+          <p>Relatorías gráficas y videos de sistematización de paneles sobre transformación del cuidado.</p>
+          <span class="link-mas">Ver caso</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="estado-vacio" hidden>
+      <span class="mono">SIN RESULTADOS</span>
+      <h3>No encontramos proyectos con esos filtros</h3>
+      <p>Prueba con otra línea de servicio o escríbenos: seguro tenemos una experiencia cercana a lo que buscas.</p>
+      <div class="estado-vacio__acciones">
+        <button class="btn btn--secundario btn--sm" type="button" data-limpiar>Limpiar filtros</button>
+        <a class="btn btn--primario btn--sm" href="contacto.html">Conversemos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hoja inferior de filtros (móvil) -->
+<div class="hoja" role="dialog" aria-modal="true" aria-labelledby="hoja-titulo">
+  <div class="hoja__fondo" data-cerrar-hoja></div>
+  <div class="hoja__panel">
+    <div class="hoja__head">
+      <h2 id="hoja-titulo">Filtrar</h2>
+      <button class="hoja__cerrar" type="button" data-cerrar-hoja aria-label="Cerrar">×</button>
+    </div>
+    <div class="filtros is-open">
+      <div class="filtro" data-filtro="linea">
+        <span class="filtro__label">Línea de servicio</span>
+        <div class="filtro__chips">
+          <button class="chip chip--filtro" type="button" data-valor="todas" aria-pressed="true">Todas</button>
+          <button class="chip chip--filtro" type="button" data-valor="formacion" aria-pressed="false">Formación virtual</button>
+          <button class="chip chip--filtro" type="button" data-valor="diagnostico" aria-pressed="false">Diagnóstico y asesoría</button>
+          <button class="chip chip--filtro" type="button" data-valor="sistematizacion" aria-pressed="false">Sistematización</button>
+          <button class="chip chip--filtro" type="button" data-valor="produccion" aria-pressed="false">Producción audiovisual</button>
+          <button class="chip chip--filtro" type="button" data-valor="plataformas" aria-pressed="false">Plataformas</button>
+        </div>
+      </div>
+      <div class="filtro" data-filtro="sector">
+        <span class="filtro__label">Sector</span>
+        <div class="filtro__chips">
+          <button class="chip chip--filtro" type="button" data-valor="todos" aria-pressed="true">Todos</button>
+          <button class="chip chip--filtro" type="button" data-valor="cooperacion" aria-pressed="false">Cooperación internacional</button>
+          <button class="chip chip--filtro" type="button" data-valor="gobierno" aria-pressed="false">Gobierno y justicia</button>
+          <button class="chip chip--filtro" type="button" data-valor="fundaciones" aria-pressed="false">Fundaciones y ONG</button>
+          <button class="chip chip--filtro" type="button" data-valor="ambiente" aria-pressed="false">Medio ambiente</button>
+        </div>
+      </div>
+      <div class="filtro">
+        <label class="filtro__label" for="pais-movil">País</label>
+        <div class="select-pill">
+          <select id="pais-movil" data-filtro="pais">
+            <option value="todos">Todos los países</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="El Salvador">El Salvador</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="México">México</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Regional">Regional / varios países</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="hoja__acciones">
+      <button class="btn btn--secundario" type="button" data-limpiar>Limpiar</button>
+      <button class="btn btn--primario" type="button" data-cerrar-hoja>Ver resultados</button>
+    </div>
+  </div>
+</div>
+</div>

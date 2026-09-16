@@ -1,0 +1,85 @@
+<!-- title: Conversemos · Innovahub | desc: Cuéntanos qué necesita tu organización. Respondemos en menos de 24 horas. | nav: contacto -->
+
+<div class="container contacto-layout">
+  <div class="contacto-form">
+    <div class="contacto-form__head">
+      <h1>Conversemos</h1>
+      <p>Cuéntanos qué necesita tu organización. Respondemos en menos de 24 horas.</p>
+    </div>
+
+    <form class="form" data-form-contacto novalidate action="#" method="post">
+      <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Ana María Torres" required autocomplete="name">
+        <span class="campo__error">Escribe tu nombre</span>
+      </div>
+      <div class="campo">
+        <label for="organizacion">Organización</label>
+        <input id="organizacion" name="organizacion" type="text" placeholder="Fundación [Nombre]" required autocomplete="organization">
+        <span class="campo__error">Indica tu organización</span>
+      </div>
+      <div class="campo">
+        <label for="correo">Correo</label>
+        <input id="correo" name="correo" type="email" placeholder="ana.torres@organizacion.org" required autocomplete="email">
+        <span class="campo__error">Ingresa un correo válido</span>
+      </div>
+      <div class="campo">
+        <label for="pais">País</label>
+        <select id="pais" name="pais" required>
+          <option value="">Selecciona un país</option>
+          <option>Colombia</option><option>México</option><option>Guatemala</option><option>Honduras</option><option>El Salvador</option>
+          <option>Costa Rica</option><option>Panamá</option><option>Ecuador</option><option>Venezuela</option><option>Chile</option>
+          <option>Brasil</option><option>Estados Unidos</option><option>Guinea Ecuatorial</option><option>Otro</option>
+        </select>
+        <span class="campo__error">Selecciona tu país</span>
+      </div>
+      <div class="campo campo--ancho">
+        <label for="linea">Línea de servicio de interés</label>
+        <select id="linea" name="linea" required>
+          <option value="">Selecciona una opción</option>
+          <option>Formación virtual</option>
+          <option>Diagnóstico de capacidades y asesoría</option>
+          <option>Sistematización de experiencias y proyectos</option>
+          <option>Producción gráfica y audiovisual</option>
+          <option>Plataformas web con enfoque en gestión del conocimiento</option>
+          <option>Aún no lo sé, quiero conversar</option>
+        </select>
+        <span class="campo__error">Selecciona la línea que más se acerca a tu necesidad</span>
+      </div>
+      <div class="campo campo--ancho">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Queremos formar a 300 personas de nuestra red en tres países…" required></textarea>
+        <span class="campo__error">Cuéntanos brevemente qué necesitas</span>
+      </div>
+      <div class="campo campo--ancho campo--check">
+        <input id="datos" name="datos" type="checkbox" required>
+        <label for="datos">Autorizo el tratamiento de mis datos personales según la política de privacidad de Innovahub.</label>
+      </div>
+      <button class="btn btn--primario btn--lg" type="submit">Enviar</button>
+    </form>
+
+    <div class="aviso aviso--ok" role="status" hidden><strong>Mensaje enviado</strong><span>Te escribimos en menos de 24 horas al correo registrado.</span></div>
+    <div class="aviso aviso--error" role="alert" hidden><strong>Revisa los campos marcados</strong><span>Faltan el correo y la línea de servicio.</span></div>
+  </div>
+
+  <aside class="contacto-aside">
+    <div class="sig" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <div class="contacto-aside__datos">
+      <h2>Escríbenos directo</h2>
+      <span>Bogotá, Colombia</span>
+      <a href="mailto:contacto@innovahub.org">contacto@innovahub.org</a>
+    </div>
+    <div class="contacto-aside__botones">
+      <a class="btn btn--keppel" href="#" title="Número de WhatsApp por definir"><span data-icon="whatsapp" style="width:18px;height:18px;display:inline-flex"></span> Escribir por WhatsApp</a>
+      <a class="btn btn--secundario" href="#" title="Enlace de agenda por definir">Agendar una reunión</a>
+    </div>
+    <div class="despues">
+      <h3>¿Qué pasa después de escribirnos?</h3>
+      <ol>
+        <li>Te respondemos en menos de 24 horas para entender el alcance.</li>
+        <li>Agendamos una conversación de 30 minutos con el equipo técnico.</li>
+        <li>Recibes una propuesta con alcance, tiempos y presupuesto.</li>
+      </ol>
+    </div>
+  </aside>
+</div>
